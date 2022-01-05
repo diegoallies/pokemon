@@ -1,0 +1,32 @@
+img.card-img-top{
+    display: grid;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.card{
+    border-color: black;
+    border:  solid 4px;
+    margin-block: 160px;
+    background-color:#ee8130 ;
+
+
+}
+
+#pokemon{
+    display: flex;
+    justify-content: center;
+}
+
+.card-body{
+    display:grid;
+    justify-content: center;
+}
+
+.words{
+    display: flex;
+    justify-content: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+ 
