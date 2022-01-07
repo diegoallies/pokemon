@@ -1,4 +1,8 @@
-img.card-img-top{
+body {
+    background-image: url("https://wallpapercave.com/wp/wp2098819.jpg");
+}
+
+mg.card-img-top{
     display: grid;
     justify-content: center;
     margin: auto;
@@ -8,7 +12,6 @@ img.card-img-top{
 .card{
     border-color: black;
     border:  solid 4px;
-    margin-block: 160px;
     background-color:#ee8130 ;
 
 
