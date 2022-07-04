@@ -1,0 +1,25 @@
+{
+  "name": "cismotest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegoallies/pokemon.git"
+  },
+  "author": "Diego Allies",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegoallies/pokemon/issues"
+  },
+  "homepage": "https://github.com/diegoallies/pokemon#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.18"
+  }
+}

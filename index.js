@@ -1,15 +1,14 @@
-fetch("https://pokeapi.co/api/v2/pokemon/")
+import fetch from 'node-fetch';
+
+fetch("https://apitest.cimsoweb.com/api/innterchange/unit_type_info_request")
   .then((res) => res.json())
   .then((pokemonList) => {
 
   console.log(pokemonList);
-  pokemonList.results.forEach((pokemon) => {
-    document.querySelector("#list").innerHTML +=`
-      <button onclick="getData('${pokemon.url}')">${pokemon.name}</button>
-     `;
+  res.send(pokemonList);
+
     
-  });
-  
+
   });
 
 function getData(url) {
